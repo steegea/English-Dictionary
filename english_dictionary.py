@@ -42,6 +42,7 @@ def dict_search(w):
     else:
         return "The word does not exist. Please double-check it."
 
+
 word = input("Enter word: ")
 
 output = dict_search(word)
